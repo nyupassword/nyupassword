@@ -1,0 +1,149 @@
+#container {
+	width: 100%;
+/*	background-color: #AA0000;  */
+  	background-color: #FFFFFF; 
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	}
+
+#header {
+	background-color: #561E8D;
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	}
+
+#NYUStartHeader {
+	background-color: #FFFFFF;
+	border-width: 0;
+	margin: 0 auto;
+	padding: 0 0 0 15px;
+	text-align: left;
+	}
+
+#TestServerWarning {
+	background-color: #FFFFFF;
+        color: #FF0000;
+	border-width: 0;
+	margin: 0 auto;
+	padding: 0 0 0 15px;
+        text-align: left;
+        font-style: italic;
+        font-size: .7em;
+	}
+
+#BannerMessage {
+        background-color: #FFFFFF;
+        color: #AA0000;
+        border-width: 0;
+        margin: 0 auto;
+        padding: 0 0 0 15px;
+        text-align: left;
+        font-style: italic;
+        font-size: 100%;
+        }
+
+#debugInfo {
+	background-color: #CCCCCC;
+        color: #000000;
+	border-width: 0;
+	margin: 0 auto;
+	padding: 0 0 0 15px;
+        text-align: left;
+  }
+
+#sidebar {
+	float: right;
+	width: 16em;
+  	background-color: #FFFFFF; 
+        padding-top: 20px;
+        padding-right: 10px;
+        font-size: 90%;
+	}
+
+/* no underlining of links in menu sidebar */
+#sidebar a {text-decoration: none; font-weight: normal;}
+
+/* have block menu items */
+#sidebar a {
+	display: block;
+	padding: 3px 3px 5px 5px;
+	background-color: #FFFFFF;
+	color: #FA0000;
+/*	border-bottom: 1px #EBEBEB solid; */
+	text-decoration: none;
+	}
+
+/* change color and outline item hovered over */
+#sidebar a:hover {
+	background-color: #EBEBEB;
+	color: #000000;
+	border-right: 1px #999999 solid;
+	padding-right: 3px;
+	border-bottom: 1px #999999 solid;
+	padding-bottom: 1px;
+	}
+
+#sidebar ul {
+	/* padding: 15px; */
+	padding: 0px;
+	list-style-type:none;
+	}
+
+#mainContent {
+	background-color: #FFFFFF;
+	margin-right: 16em;
+	padding:  0 20px 0 15px;
+	}
+
+.leftredline {
+	border-left: 1px solid red; 
+	}
+
+#mainWarning {
+	background-color: #FFFFFF;
+	color: #FF0000;
+	margin-right: 16em;
+	margin-left: 3em; 
+	padding: 0 20px 0 15px; 
+	}
+
+#footer p {
+	margin: 10px 0 0 0;
+	background-color: #FFFFFF;
+	padding: 0 0 0 15px;
+	text-align: left;
+	font-style: italic;
+	font-size: .8em;
+	}
+
+/* use to force everything following to display after any previously floated element */
+.clearfloat {
+	clear: both;
+	height: 0;
+	font-size: 1px;
+	}
+body {
+	font-family: verdana, arial, helvetica, sans-serif;
+        font-size: 80%;
+	background-color: #FFFFFF;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	}
+
+h1 {
+	color: #999999;
+	font-family: verdana, sans-serif;
+	font-weight: normal;
+   }
+
+
+h2 {
+	color: #888888;
+	font-family: verdana, sans-serif;
+        font-size: 120%;
+	font-weight: normal;
+   }
